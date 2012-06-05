@@ -1,0 +1,7 @@
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+dist.ini
+lib/Mojolicious/Command/deploy.pm
+t/deploy.t
