@@ -1,6 +1,8 @@
 package Mojolicious::Command::deploy;
 use Mojo::Base 'Mojolicious::Commands';
 
+our $VERSION = '0.02';
+
 has description => "Deploy Mojolicious apps to the cloud.\n";
 has hint        => <<"EOF";
 
@@ -75,6 +77,10 @@ L<Mojolicious::Command::deploy> and L<Mojo::Command::deploy>.
 
 L<Mojolicious::Command::deploy> inherits all methods from
 L<Mojolicious::Commands>.
+
+=head1 CREDITS
+
+Chankey Pathak
 
 =head1 SEE ALSO
 
